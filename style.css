@@ -1,0 +1,287 @@
+html body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #b8e1ef;
+    height: 75px;
+}
+
+.header-content {
+    margin: 0 auto;
+    width: 1200px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.header-content img {
+    width: 200px;
+}
+
+nav {
+    background-color: #2e75a3;
+    height: 50px;
+}
+
+nav .nav-wrapper {
+    margin: 0 auto;
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-wrapper a {
+    padding-left: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+nav .nav-wrapper a:hover {
+    text-decoration: none;
+    color: rgb(140, 201, 49);
+}
+
+.nav-wrapper p {
+    font-size: 17px;
+}
+
+main {
+    padding-top: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+}
+
+/* -----------------main left----------------------- */
+
+/* ---kotak 1--- */
+
+.kotak1-bhs, .kotak1-username, .kotak1-pw, button {
+    width: 250px;
+    margin: 0 10px 10px 10px;
+}
+
+
+main .main-left .kotak1 {
+    border: #ecf0f1 solid 1px;
+    height: 25%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.kotak1 .kotak1-bhs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    border: #cccccc solid 1px;
+    border-radius: 5px;
+    height: 30px;
+    align-items: center;
+}
+
+.kotak1 .kotak1-bhs img {
+    width: 25px;
+    margin-left: 10px;
+}
+
+.kotak1 .kotak1-username, .kotak1 .kotak1-pw {
+    display: flex;
+    flex-direction: row;
+    border: #cccccc solid 1px;
+    border-radius: 5px;   
+    height: 35px;
+    background-color: #eeeeee;
+   
+}
+
+.kotak1-username .gbr-avatar, .kotak1-pw .gbr-pw {
+    background-color: #eeeeee;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gbr-avatar img {
+    width: 15px;
+    border-top-left-radius: 5px;
+}
+
+.kotak1-username .user, .kotak1-pw .pw {
+    width: 80%;
+}
+
+.kotak1-username input, .kotak1-pw input {
+    height: 90%;
+    width: 98%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #e8f0fe;
+    border: #a5a5a5 solid 1px;
+}
+
+.kotak1-pw img {
+    width: 15px;
+}
+
+.main-left button {
+    height: 35px;
+    background-color: #337ab7;
+    border: #494949 solid 1px;
+    border-radius: 5px;
+    color: white;
+}
+
+.main-left button:hover {
+    background-color: #0c5798;
+}
+
+/* ---Kotak 2--- */
+
+.kotak2 {
+    border: #ecf0f1 solid 1px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.kotak2 .kotak2-title {
+    height: 40px;
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+}
+
+.kotak2-title a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #2e75b4;
+}
+
+.kotak2-isi {
+    width: 80%;
+    margin: 20px 5px 5px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.kotak2-isi p {
+    align-items: center;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.kotak2-isi a {
+    text-decoration: none;
+    color: #2e75b4;
+}
+
+.kotak2 a:hover {
+    color:rgb(117, 197, 37);
+}
+
+
+/* -----------------main right----------------------- */
+main .main-right {
+    width: 750%;
+    margin: 5px 0 10px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-right h3 {
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.main-right p {
+    color: #333;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.main-right img {
+    width: 500px;
+    margin: auto;
+}
+
+/* ----------------------footer----------------------- */
+
+.footer {
+    margin-top: 30px;
+    background-color: #f5f5f5   ;
+    padding: 20px 15px 20px 15px;
+}
+
+.footer-content p {
+    font-size: 12px;
+    text-align: end;
+    margin-right: 120px;
+    line-height: 17px;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #2e75b4;
+}
+
+.footer-content a:hover {
+    color: rgb(117, 197, 37);
+}
+
+
+
+/* -------------------------meyer----------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
